@@ -32,13 +32,6 @@ class MyCell: UITableViewCell {
         return stackView
     }()
     
-//    var height: CGFloat = 0 {
-//        didSet {
-//            title.heightAnchor.constraint(equalToConstant: height).isActive = true
-//            self.layoutIfNeeded()
-//        }
-//    }
-    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
@@ -47,20 +40,7 @@ class MyCell: UITableViewCell {
         stackView.leftAnchor.constraint(equalTo: leftAnchor, constant: 8).isActive = true
         stackView.rightAnchor.constraint(equalTo: rightAnchor, constant: -8).isActive = true
         stackView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -8).isActive = true
-        
-//        addSubview(title)
-//        NSLayoutConstraint.activate([
-//                title.topAnchor.constraint(equalTo: topAnchor, constant: 8),
-//                title.leftAnchor.constraint(equalTo: leftAnchor, constant: 8),
-//                title.rightAnchor.constraint(equalTo: rightAnchor, constant: -8),
-//            ])
-//        addSubview(descriptionLabel)
-//        NSLayoutConstraint.activate([
-//            descriptionLabel.topAnchor.constraint(equalTo: title.bottomAnchor, constant: 8),
-//            descriptionLabel.leftAnchor.constraint(equalTo: leftAnchor, constant: 8),
-//            descriptionLabel.rightAnchor.constraint(equalTo: rightAnchor, constant: -8),
-//            descriptionLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -8)
-//            ])
+    
     }
     
     required init?(coder aDecoder: NSCoder) {
