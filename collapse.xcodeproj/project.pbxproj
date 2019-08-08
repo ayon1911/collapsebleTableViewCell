@@ -12,6 +12,9 @@
 		342343C722FC1D43007D2E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342343C522FC1D43007D2E15 /* Main.storyboard */; };
 		342343C922FC1D44007D2E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342343C822FC1D44007D2E15 /* Assets.xcassets */; };
 		342343CC22FC1D44007D2E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342343CA22FC1D44007D2E15 /* LaunchScreen.storyboard */; };
+		342343D422FC1D63007D2E15 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342343D322FC1D63007D2E15 /* MainVC.swift */; };
+		342343D622FC4330007D2E15 /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342343D522FC4330007D2E15 /* CellData.swift */; };
+		342343D822FC49BC007D2E15 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342343D722FC49BC007D2E15 /* MyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		342343C822FC1D44007D2E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		342343CB22FC1D44007D2E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		342343CD22FC1D44007D2E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342343D322FC1D63007D2E15 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		342343D522FC4330007D2E15 /* CellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
+		342343D722FC49BC007D2E15 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				342343C822FC1D44007D2E15 /* Assets.xcassets */,
 				342343CA22FC1D44007D2E15 /* LaunchScreen.storyboard */,
 				342343CD22FC1D44007D2E15 /* Info.plist */,
+				342343D322FC1D63007D2E15 /* MainVC.swift */,
+				342343D522FC4330007D2E15 /* CellData.swift */,
+				342343D722FC49BC007D2E15 /* MyCell.swift */,
 			);
 			path = collapse;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				342343C422FC1D43007D2E15 /* ViewController.swift in Sources */,
+				342343D822FC49BC007D2E15 /* MyCell.swift in Sources */,
+				342343D422FC1D63007D2E15 /* MainVC.swift in Sources */,
 				342343C222FC1D43007D2E15 /* AppDelegate.swift in Sources */,
+				342343D622FC4330007D2E15 /* CellData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
