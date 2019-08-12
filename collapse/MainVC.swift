@@ -9,9 +9,7 @@
 import UIKit
 
 class MainVC: UITableViewController {
-    
-    var hide: Bool = true
-    
+        
     var cellData = [
         CellData(title: "Title 1", descriptionTitle: "Description 1", shouldCollapse: true),
         CellData(title: "Title 2", descriptionTitle: "I’m not sure if it is a bug or not. But the problem was also mentioned by UseYourLoaf. When the table view is first displayed, you may find some of the cells are not sized properly. But when you scroll the table view, the new cells are displayed with correct row height", shouldCollapse: true),
